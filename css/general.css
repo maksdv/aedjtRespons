@@ -1,0 +1,85 @@
+
+body{
+	background-image: url("../images/bosque.jpg");
+	background-size: contain;
+	height: 100%;	
+	font-family:  'Do Hyeon', Serif;
+
+}
+
+.main{
+	
+}
+
+.main ul{
+	
+}
+
+.main ul li{
+	list-style: none;
+	border:1px solid green;
+	border-radius: 5px;
+	margin-top: 5px;
+	background-color:  white;
+
+}
+
+.main li a{
+    text-decoration:none;
+    display:inline-block;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #000;
+
+    }
+
+.main ul>li>p{
+	font-family: 'Do Hyeon', sans-serif;
+	color: #a6a6a6;
+	text-align: center;
+	text-decoration:none;
+}
+
+    
+       
+.main li:hover{
+	display:block;
+	background-color:#47e84d;
+}
+content{
+	
+	border:10px ridge #fff;
+	
+}
+
+footer {
+  background-color:grey;
+}
+
+/*footer>img{
+	float: right;
+	margin-top: 140px;
+	margin-left: 10px;
+}*/
+
+#imagMain{
+	margin-left: 25%;
+	margin-top: 20px;
+	width: 50%;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#accesForm{
+	float: left;
+	margin-left: 20px;
+}
+
+#footerInfo{
+	float: left;
+	margin-left: 100px;
+}
+
+input{
+	margin: 2px;
+	border-radius: 6px;
+}
