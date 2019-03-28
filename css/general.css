@@ -58,6 +58,10 @@ footer {
 	background-image: url("../images/footer2.png");
 }
 
+#footText{
+	width: 100%;
+}
+
 /*footer>img{
 	float: right;
 	margin-top: 140px;
