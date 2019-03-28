@@ -2,7 +2,7 @@
 body{
 	background-image: url("../images/bosque.jpg");
 	background-size: contain;
-		
+	
 	font-family:  'Do Hyeon', Serif;
 
 }
@@ -56,10 +56,11 @@ content{
 footer {
 	background-color: #24b738;
 	background-image: url("../images/footer2.png");
+
 }
 
-#footText{
-	width: 100%;
+#footerText{
+	font-size: 100%;
 }
 
 /*footer>img{
@@ -86,5 +87,5 @@ input{
 }
 
 #accesoIcono{
-	width: 25%;
+	width: 30%;
 }
