@@ -8,8 +8,8 @@
 	include 'head.php';
  ?>
 <body>
- <section>
- 	<div id="solicitudNuevos">
+ <section class="container">
+ 	<div class="col-md-12" id="solicitudNuevos">
  		<center><img src="../images/titulo-solicitud-socio.png" width="90%" height="auto"></center><br>
  		<center><h3 style="width: 80%"> Puede rellenar el formulario via mail o descargar el registro en pdf. En el interior del pdf de registro encontrará las instrucciones pertinentes para hacerse socio de la AEDJT</h3></center><br>
  		<center><a href="descargaForm.php">Descargar solicitud</a></center><br>
@@ -88,5 +88,8 @@
 	<center><p style="margin:1%">*Campos Obligatorios</p></center>
  	</div>
  </section>
+  <?php 
+	include 'footer.php';
+ ?>
 </body>
 </html>

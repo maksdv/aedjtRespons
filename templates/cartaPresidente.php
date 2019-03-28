@@ -8,8 +8,8 @@
 	include 'head.php';
  ?>
 <body>
- <section>
- 	<div id="text">
+ <section class="container">
+ 	<div class="col-md-12" id="text">
  		<center><img id="tituloCarta" src="../images/carta-del-presidente.png"></center>
  		<div id="containerfoto">
  			<img id="imagenPresidente" src="../images/foto-presidente-carta.jpg">
@@ -85,6 +85,8 @@ Alberto Silvosa Ruiz
 </div>
  </section>
 </h1>
- 
+ <?php 
+	include 'footer.php';
+ ?>
 </body>
 </html>

@@ -10,8 +10,8 @@
 	include 'head.php';
  ?>
 
-<section>
-	<div id="text">
+<section class="container">
+ 	<div class="col-md-12" id="text">
 		<img src="../images/estatutos.png">
 		<p style="text-align: center;"><strong>ESTATUTOS DE LA ASOCIACIÓN ESPAÑOLA DEL DEUTSCHER JAGDTERRIER</strong></p>
 <br><br>

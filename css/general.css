@@ -2,17 +2,9 @@
 body{
 	background-image: url("../images/bosque.jpg");
 	background-size: contain;
-	height: 100%;	
+		
 	font-family:  'Do Hyeon', Serif;
 
-}
-
-.main{
-	
-}
-
-.main ul{
-	
 }
 
 .main ul li{
@@ -20,7 +12,7 @@ body{
 	border:1px solid green;
 	border-radius: 5px;
 	margin-top: 5px;
-	background-color:  white;
+	background-color:  #24b738;
 
 }
 
@@ -39,11 +31,21 @@ body{
 	text-decoration:none;
 }
 
-    
+.navbar-light {
+    background-color: #24b738;
+}
+
+.navbar-light li:hover {
+    background-color: #72e582;
+}
+
+#textColorMenu{
+ 	color: black;
+}
        
 .main li:hover{
 	display:block;
-	background-color:#47e84d;
+	background-color: #72e582;
 }
 content{
 	
@@ -52,7 +54,8 @@ content{
 }
 
 footer {
-  background-color:grey;
+	background-color: #24b738;
+	background-image: url("../images/footer2.png");
 }
 
 /*footer>img{
@@ -69,17 +72,15 @@ footer {
 	padding-right: 0;
 }
 
-#accesForm{
-	float: left;
-	margin-left: 20px;
-}
-
-#footerInfo{
-	float: left;
-	margin-left: 100px;
-}
-
 input{
 	margin: 2px;
 	border-radius: 6px;
+}
+#rrss{
+	width: 25%;
+	margin: 29px 5px 5px 5px;
+}
+
+#accesoIcono{
+	width: 25%;
 }

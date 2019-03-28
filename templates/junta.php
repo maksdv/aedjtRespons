@@ -9,8 +9,8 @@
 <?php 
 	include 'head.php';
  ?>
- <section>
- 	<div id="text">
+ <section class="container">
+ 	<div class="col-md-12" id="text">
  		<img src="../images/junta.jpg">
  		<p>Pendiente base de datos</p>
  		
