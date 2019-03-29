@@ -1,10 +1,11 @@
 
 body{
-	
+	background-image: url("../images/bosquen.jpg");
 	background-size: contain;
-	
+	background-color: #f5f9f4;
 	font-family:  'Do Hyeon', Serif;
-
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main ul li{
@@ -47,9 +48,8 @@ body{
 	display:block;
 	background-color: #72e582;
 }
-content{
-	
-	border:10px ridge #fff;
+#noticias{
+	border: 1px solid grey;
 	
 }
 
@@ -70,9 +70,10 @@ footer {
 }*/
 
 #imagMain{
-	margin-left: 25%;
+	margin-left: ;
 	margin-top: 20px;
-	width: 50%;
+	width: 90%;
+	height: auto;
 	margin-right: 0;
 	padding-right: 0;
 }
