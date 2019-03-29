@@ -6,7 +6,7 @@ body{
 	font-family:  'Do Hyeon', Serif;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 5%;
+	padding-top: 60px;
 }
 @media screen and (max-width: 400px){
 body{
